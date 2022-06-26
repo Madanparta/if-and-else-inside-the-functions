@@ -121,3 +121,81 @@
 //     }
 //   }
 //   console.log(leapYear(2056))
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//11.REVERSE OR NOT.
+// ANSWER.
+// let reversEqual = (n)=>{
+//     let a = Math.floor(n/100);
+//     let b = Math.floor((n/10)%10);
+//     let c = n%10;
+//     if((a+""+b+""+c) == n){
+//       return "YES";
+//     }else{
+//       return "NO";
+//     }
+//   }
+// console.log(reversEqual(444))
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// 12.PRINTING WEEKS.
+// ANSWER.
+
+// let weekCal =(day)=>{
+//     if(day>=0){
+//       if(day==0)return "SUNDAY";
+//       if(day==1)return "MONDAY";
+//       if(day==2)return "TUESDAY";
+//       if(day==3)return "WEDNESDAY";
+//       if(day==4)return "THURSDAY";
+//       if(day==5)return "FRIDAY";
+//       if(day==6)return "SATURDAY";
+//     }else{
+//       return "PLEASE PUT CORRECT NUMBERS.."
+//     }
+//   }
+//   console.log(weekCal(0))
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// 13.MARKS CALCULATING.
+// ANSWER.
+// let averageOfMarks =(a,b,c,d,e)=>{
+//     let avr = (a+b+c+d+e)/5;
+//     if(avr>=90)return "A gread";
+//     if(avr>=80 && avr < 90)return "B gread";
+//     if(avr>=70 && avr<80)return "C gread";
+//     if(avr>=50 && avr<70)return "D gread"; return "FAILS"
+// }
+// console.log(averageOfMarks(100,89,90,98,94))
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// 14.DIVIDING SOME VALUE PRINT HELLO,WORLD,HELLOW WORLD.
+// ANSWER.
+// let dividing = (num)=>{
+//     if(num%3==0 && num%5==0)return "Hello World";
+//     if(num%3==0){
+//       return "Hello";
+//     }else if(num%5==0)return "Wold";
+//   }
+//   console.log(dividing(90))
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// 15.USING SWITCH CASE
+// ANSWER.
+// let switchCaseUsing=(no)=>{
+//     switch(no%2==0){
+//       case true :
+//         return "EVEN";
+//         break;
+//       case false :
+//         return "ODD";
+//         break;
+//       default:
+//       return "do well";
+//       break;
+//     }
+// }
+// console.log(switchCaseUsing(3))
